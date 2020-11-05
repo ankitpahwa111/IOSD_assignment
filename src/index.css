@@ -1,0 +1,85 @@
+html {
+
+  min-height: 100%;
+}
+body {
+  padding:0px;
+  margin:0px;
+  font-family: fantasy;
+  height: 100%;
+}
+  /* body {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    /* background: url(/img/mario-bg.png) no-repeat; */
+    /* background-size: 100%; */
+    /* background-position: bottom; */
+    /* background-color: #eee !important; */
+    /* min-height: 100%; */
+  
+  #root{
+    height : 100%;
+    background-size: 100% !important;
+  }
+  .dashboard{
+    background-color: #eee !important;
+    background-size: 100% !important;
+    /* width: 100% !important; */
+    min-height: 100%;
+    /* height: 100% !important; */
+  }
+  form{
+    padding: 20px;
+    margin-top: 60px;
+  }
+  
+  form button, form h5{
+    margin: 20px 0;
+  }
+  
+  img{
+    margin-top : 1%;
+    width: 50em;
+    height: 51em;
+  }
+  .social-container {
+    background: #eee;
+    padding: 25px 50px;
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  a.youtube {
+    color: #eb3223;
+  }
+  
+  .facebook {
+    color: #4968ad;
+  }
+  
+  .twitter {
+    color: #49a1eb;
+  }
+  .site-statistic-demo-card {
+    background: #ececec;
+    padding: 30px;
+  }
+  instagram {
+    color: black;
+  }
+  input[type=text]:not(.browser-default):focus:not([readonly]),
+  input[type=email]:not(.browser-default):focus:not([readonly]),
+  input[type=password]:not(.browser-default):focus:not([readonly]),
+  textarea.materialize-textarea:focus:not([readonly]){
+    border-color: #ec407a;
+    box-shadow: none;
+  }
+  .Leftsidebar{
+    margin-left: 0% !important;
+  }
