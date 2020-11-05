@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import Notification from "./notification";
 import ProjectList from "../Projects/ProjectList";
 import { Tag } from "antd";
-import Demo from './Comment';
+import Demo from "./Comment";
 import "antd/dist/antd.css";
 import { Radio, Card, Tree, Progress, Avatar } from "antd";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Stat from './Header';
+import Stat from "./Header";
 import {
   faGoogle,
   faFacebook,
@@ -149,7 +149,7 @@ class Dashboard extends Component {
         <div className="col s1"></div>
         <div className="col s5">
           <div className="tags center">
-            <Stat/>
+            <Stat />
           </div>
           <ProjectList />
         </div>
@@ -162,13 +162,17 @@ class Dashboard extends Component {
             hoverable="true"
           >
             <div className="row">
-              <Avatar size={40} src="https://avatars2.githubusercontent.com/u/32906809?s=460&u=4285e5bbc385e2177c342e1293f24492ec381746&v=4" className="col m4"/>
+              <Avatar
+                size={40}
+                src="https://avatars2.githubusercontent.com/u/32906809?s=460&u=4285e5bbc385e2177c342e1293f24492ec381746&v=4"
+                className="col m4"
+              />
               <Meta title="Ankit Pahwa" description="10 mins ago" />
-              <br/>
+              <br />
               <p>
-                We supply a series of design principles, practical patterns and high quality design
-                resources (Sketch and Axure), to help people create their product prototypes beautifully
-                and efficiently.
+                We supply a series of design principles, practical patterns and
+                high quality design resources (Sketch and Axure), to help people
+                create their product prototypes beautifully and efficiently.
               </p>
             </div>
             <Card
@@ -176,9 +180,7 @@ class Dashboard extends Component {
                 <img
                   src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
                   style={{
-                    // marginTop: "10%",
                     height: "100%",
-                    // marginRight: "5%",
                     width: "100%",
                   }}
                 />
@@ -187,12 +189,7 @@ class Dashboard extends Component {
               bordered={false}
               // hoverable="true"
             />
-            {/* <Meta title="Europe Street beat" description="www.instagram.com" /> */}
-            {/* <div className="row">
-              <Avatar size={40} src="https://avatars2.githubusercontent.com/u/32906809?s=460&u=4285e5bbc385e2177c342e1293f24492ec381746&v=4" className="col m4"/>
-              <Meta title="Prayag Mukhi" description="10 AM Today" />
-            </div> */}
-            <Demo/>
+            <Demo />
           </Card>
         </div>
       </div>

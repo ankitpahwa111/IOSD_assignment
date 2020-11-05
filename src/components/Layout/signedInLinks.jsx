@@ -17,7 +17,7 @@ const SignedInLinks = (props) => {
           <a onClick={props.signOut}>Sign Out</a>
         </li>
         <Avatar
-          size = "50"
+          size="50"
           src="https://avatars2.githubusercontent.com/u/32906809?s=460&u=4285e5bbc385e2177c342e1293f24492ec381746&v=4"
         />
       </ul>

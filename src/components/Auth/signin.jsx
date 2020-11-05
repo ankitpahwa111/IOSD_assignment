@@ -17,12 +17,7 @@ class Signin extends Component {
   };
   handleOnSubmit = (e) => {
     e.preventDefault();
-    // y
     this.props.signIn(this.state);
-
-    // this.props.history.push('/')
-    // if(this.props.authError===null)
-    // this.props.history.push('/')
   };
   render() {
     const { authError, auth } = this.props;
